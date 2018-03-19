@@ -1,7 +1,7 @@
 
-# HW3 - PyCitySchools Instructions
+# PyCitySchools
 
-Your final report should include each of the following:
+In this exercise I used Python to analyze school datasets.
 
 District Summary
 
