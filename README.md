@@ -1,7 +1,6 @@
 
 # PyCitySchools
-
-In this exercise I used Python to analyze school datasets.
+In this exercise I utilized Pandas and Jupyter Notebook to analyze district-wide school's standardized test results. 
 
 District Summary
 
