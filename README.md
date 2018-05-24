@@ -1,5 +1,5 @@
 
-# PyCitySchools
+# City School Analysis using Pandas
 In this exercise I utilized Pandas and Jupyter Notebook to analyze district-wide school's standardized test results. 
 
 District Summary
