@@ -2,6 +2,11 @@
 # City School Analysis using Pandas
 In this exercise I utilized Pandas and Jupyter Notebook to analyze district-wide school's standardized test results. 
 
+# Three observable trends from the data below
+1.	District-wise kids score higher, on average, in reading (81.88%) compared to math (74.98%).  
+2.	The difference between average math and reading scores is about the same (within a one point difference) for the top 5 performing schools, whereas the difference between average math and reading scores for the bottom 5 performing schools is about 3-4 points. Interestingly the top 5 performing schools are all charter schools, whereas the bottom performing schools are all district schools. The overall passing rate for these top 5 schools is ~95.1%, whereas the passing rate for the bottom 5 schools is 73.7% (see Scores by School Type table). Initially I thought that the difference in performance was related to funding, but that is not the case. The top 5 schools actually have smaller per student budgets ranging from 578-638 dollars, whereas the bottom 5 schools have larger budgets of 637-655 dollars per student. The ‘Scores by School Spending’ table confirms that higher spending per student does not translate to higher overall passing rate, in fact it is the opposite. 
+3.	The highest overall passing rate is strongly associated with school size, with students succeeding at higher rates in smaller schools (with <1786 students) compared to larger schools (with 2926-4976 students). In this dataset, school size is a big factor influencing the higher success rate of Charter schools compared to the lower success rate in District schools, with the latter having two to four times as many students as the former.
+
 District Summary
 
     Create a high level snapshot (in table form) of the district's key metrics, including:
@@ -1346,9 +1351,4 @@ display(Grouped_bySchoolType.mean())
 </table>
 </div>
 
-
-# Three observable trends from the data above
-1.	District-wise kids score higher, on average, in reading (81.88%) compared to math (74.98%).  
-2.	The difference between average math and reading scores is about the same (within a one point difference) for the top 5 performing schools, whereas the difference between average math and reading scores for the bottom 5 performing schools is about 3-4 points. Interestingly the top 5 performing schools are all charter schools, whereas the bottom performing schools are all district schools. The overall passing rate for these top 5 schools is ~95.1%, whereas the passing rate for the bottom 5 schools is 73.7% (see Scores by School Type table). Initially I thought that the difference in performance was related to funding, but that is not the case. The top 5 schools actually have smaller per student budgets ranging from 578-638 dollars, whereas the bottom 5 schools have larger budgets of 637-655 dollars per student. The ‘Scores by School Spending’ table confirms that higher spending per student does not translate to higher overall passing rate, in fact it is the opposite. 
-3.	The highest overall passing rate is strongly associated with school size, with students succeeding at higher rates in smaller schools (with <1786 students) compared to larger schools (with 2926-4976 students). In this dataset, school size is a big factor influencing the higher success rate of Charter schools compared to the lower success rate in District schools, with the latter having two to four times as many students as the former.
 
